@@ -2,10 +2,12 @@ import firebase from 'firebase';
 
 try {
   var config = {
-    apiKey: process.env.API_KEY,
-    authDomain: process.env.AUTH_DOMAIN,
-    databaseURL: process.env.DATABASE_URL,
-    storageBucket: process.env.STORAGE_BUCKET,
+    apiKey: "AIzaSyBsLy-rp8kgC0x1qvdxLlnT5rFiPw_pUdM",
+    authDomain: "d33-todo-app.firebaseapp.com",
+    databaseURL: "https://d33-todo-app.firebaseio.com",
+    projectId: "d33-todo-app",
+    storageBucket: "d33-todo-app.appspot.com",
+    messagingSenderId: "255384504727"
   };
 
   firebase.initializeApp(config);
