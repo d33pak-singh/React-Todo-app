@@ -4,6 +4,7 @@ import * as Redux from 'react-redux';
 import TodoList from 'TodoList'
 import AddTodo from 'AddTodo';
 import TodoSearch from 'TodoSearch';
+import Nav from 'Nav';
 import * as actions from 'actions';
 
 export var TodoApp = React.createClass({
@@ -16,9 +17,7 @@ export var TodoApp = React.createClass({
   render() {
     return (
       <div>
-        <div className="page-actions">
-          <a href="#" onClick={this.onLogout}>Logout</a>
-        </div>
+        <Nav handle={this.onLogout}/>
 
         <h1 className="page-title">Todo App</h1>
 
