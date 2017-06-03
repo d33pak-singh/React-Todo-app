@@ -8,9 +8,8 @@ import Nav from 'Nav';
 import * as actions from 'actions';
 
 export var TodoApp = React.createClass({
-  onLogout(e) {
+  onLogout() {
     var {dispatch} = this.props;
-    e.preventDefault();
 
     dispatch(actions.startLogout());
   },
