@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate",
+  "name": "Todo App",
   "version": "1.0.0",
   "description": "Simple react app",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "build": "webpack",
     "start": "npm run build && node server.js"
   },
-  "author": "Andrew Mead",
+  "author": "Deepak Singh",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.9.1",
